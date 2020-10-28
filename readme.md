@@ -9,3 +9,4 @@
 > <li>Add a youtube Video </li>
 > <li>Create a contact form </li>
 > <li>style your website </li>
+><li>styled my images </li>
