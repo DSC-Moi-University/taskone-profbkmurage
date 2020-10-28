@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webdev task one </title>
+    <link rel="stylesheet" type="text/css" href="main.css">
 
 </head>
 
@@ -13,12 +14,16 @@
 
     <div class="header">
         <h1>My Website</h1>
-        <p>A website created by me.</p>
+        <p>Prof Bkmurage`s website</p>
     </div>
 
     <div class="navbar">
-
-        <!--Add navigation links on the right-->
+      <!--Add navigation links on the right-->
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Portfolio</a></li>
+    <li><a href="#">Signup</a></li>
+    <li><a href="#">contacts</a></li>
+            
 
     </div>
 
@@ -26,31 +31,81 @@
         <div class="side">
             <h2>About Me</h2>
             <h5>Photo of me:</h5>
-            <!--Add a div of class "fakeimg"-->
+            <div class="fakeimg">
+                <a href="index.html"><img src="img/images.jpg" alt="fakeimg"></a>
+          <!--Add a div of class "fakeimg"-->
+            </div>
             <!--Add an image as a link to navigate home of height 200px-->
+          <!--Add a blockquote decribing yourself ,make the key aspect strong-->
 
-            <!--Add a blockquote decribing yourself ,make the key aspect strong-->
-            <h3>More Text</h3>
-            <p>Lorem ipsum dolor sit ame.</p>
+            <blockquote>My name is <strong>Brian Murage</strong>.I am a <strong>second year at Moi university</strong> Main Campus. <strong>I am a web developer</strong>. I am a member of the DSC community~ Moi university Chapter </blockquote>
+            <h3> My Programming tools</h3>
+            <p>When i am developing any web i always make sure i have a computer, good internet and that i am objective oriented. I use google chrome as my default browser and sublime text is my favourite text editor</p>
             <!--Add a photo album-->
+            <div id="img">
+                <img class="image" src="img/bk2.jpg" title="prof Bkmurage">
+                <img class="image" src="img/bk3.jpg" title="BK">
+                <img class="image" src="img/bk4.jpg" title="Bkmurage">
+                <img class="image" src="img/bk5.jpg">
+            </div>
         </div>
         <div class="main">
             <!--Add a heading 2 DSC Moi University Onboarding Session -->
+            <h2>DSC Moi University Onboarding Session</h2>
             <!--Add a heading 5 with date-->
+            <h5>22nd October, 2020</h5>
             <!--Add a div class fakeimg ,add a youtube video in the div sourcing from DSC Moi University Mentorship Program Onboarding Session-->
-            <p>Some text..</p>
+            <div class="fakeimg">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/MHQmm0jTFco" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>  
+          </div>
+            <p>I like doing the following: </p>
             <!--Create unordered lists with ordered sublist-->
+            <ul>
+                <li>Reading novels of mystery, example
+                    <ol>
+                        <li>Hercules and his gold</li>
+                         <li>Archilles and his gifts</li>
+                         <li>Wizard of the Crow</li>
+                    </ol>
+                </li>
+                <li>building codes with the following languages:
+                    <ol>
+                        <li>Python</li>
+                        <li>HTML and CSS</li>
+                        <li>javascript</li>
+
+                    </ol>
+                </li>
+                <li>Learning scientific subjects like:
+                    <ol>
+                        <li>Calculus(differential and integral)</li>
+                         <li>Mechanical physics</li>
+                         <li>Thermodynamic chemistry</li>
+                    </ol>
+            </ul>
             <br>
             <h2>Contacts</h2>
-
-
             <!--Add a form to input email,phone number and a message-->
+            <form id="form-group">
+                <label>Email:</label>
+                <input type="email" name="email" required="REQUIRED">
+                <label>Phone Number:</label>
+                <input type="tel" name="phone" required="REQUIRED">
+                <label>Message:</label>
+               <textarea name="message" required="REQUIRED"></textarea> 
+               <input type="submit" name="submit">
+            </form>
+
         </div>
     </div>
 
     <div class="footer">
-        <h2>Footer</h2>
+        <h2>you can visit my social accounts here</h2>
         <!-- Add favorite social media icons linking to your social account-->
+        <a href="https://twitter.com/PBkmurage"><img class="img" src="img/download.png"></a>
+        <a href="https://m.facebook.com/brian.murage.98?ref=bookmarks"><img class="img" src="img/images.png"></a>
+
+
     </div>
 
 
